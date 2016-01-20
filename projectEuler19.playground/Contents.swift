@@ -2,6 +2,9 @@
 
 import UIKit
 
+/*
+	Rather than generate a system to track the days in a year, we are using the available calendar/date API.
+*/
 func numberOfSundaysTheFirst() {
 	let dateComponents = NSDateComponents()
 	dateComponents.day = 1
